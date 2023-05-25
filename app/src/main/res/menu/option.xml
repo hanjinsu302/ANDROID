@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opLogin"
+        android:title="로그인" />
+
+    <item
+        android:id="@+id/opLogout"
+        android:title="로그아웃"/>
+    <item
+        android:id="@+id/itemMode" android:title="화면 모드" >
+        <menu>
+            <item
+                android:id="@+id/opWhite"
+                android:title="화이트모드"/>
+            <item
+                android:id="@+id/opDark"
+                android:title="다크모드"/>
+        </menu>
+    </item>
+
+</menu>
